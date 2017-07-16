@@ -27,13 +27,31 @@ body {
 /****** LOGO ******/
 #logo {
 	text-align: center;
-	font-size: 2em;
-	background-color: black;
-	color: white;
+	font-size: 3em;
+	background-color: white;
+	color: black;
 	margin-top: 50px;
+	margin-bottom: 20px;
 
 }
 
 /****** Links ******/
+a.ghost {
+	color: white;
+	background: white;
+	display: inline-block;
+	width: 150px;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 8px;
+	margin-right: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: color 0.3s ease-out, background-color 0.3 ease-out
+}
 
-
+a.ghost:hover, a.ghost:focus {
+	background-color: black;
+	color: white;
+	transition: color 0.3s ease-in, background-color 0.3 ease-in
+}
