@@ -1,0 +1,39 @@
+/****** BACKGROUND ******/
+
+body {
+	background: linear-gradient(270deg, #07c0ff, #e50d78, #feff10);
+	background-size: 400% 400%;
+	-webkit-animation: BackgroundAnimation 50s ease infinite;
+	-moz-animation: BackgroundAnimation 50s ease infinite;
+	animation: BackgroundAnimation 50s ease infinite;
+}
+
+@-webkit-keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes BackgroundAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/****** LOGO ******/
+#logo {
+	text-align: center;
+	font-size: 2em;
+	background-color: black;
+	color: white;
+	margin-top: 50px;
+
+}
+
+/****** Links ******/
+
+
