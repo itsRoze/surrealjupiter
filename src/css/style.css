@@ -32,12 +32,16 @@ body {
 	color: black;
 	margin-top: 50px;
 	margin-bottom: 20px;
+	cursor: default;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
 
 }
 
 /****** Links ******/
 a.ghost {
-	color: white;
+	color: black;
 	background: white;
 	display: inline-block;
 	width: 150px;
@@ -54,4 +58,22 @@ a.ghost:hover, a.ghost:focus {
 	background-color: black;
 	color: white;
 	transition: color 0.3s ease-in, background-color 0.3 ease-in
+}
+
+/****** Links ******/
+
+.info {
+	background-color: black;
+	margin-top: 80px;
+	padding: 30px;
+	color: white;
+	text-align: center;
+	cursor: default;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.location {
+	color: red;
 }
