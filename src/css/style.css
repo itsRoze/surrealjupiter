@@ -40,7 +40,7 @@ body {
 }
 
 /****** Links ******/
-a.ghost {
+.ghost {
 	color: black;
 	background: white;
 	display: inline-block;
@@ -54,13 +54,13 @@ a.ghost {
 	transition: color 0.3s ease-out, background-color 0.3 ease-out
 }
 
-a.ghost:hover, a.ghost:focus {
+.ghost:hover, .ghost:focus {
 	background-color: black;
 	color: white;
 	transition: color 0.3s ease-in, background-color 0.3 ease-in
 }
 
-/****** LINKS ******/
+/****** INFO ******/
 
 .info {
 	background-color: black;
@@ -142,4 +142,41 @@ a.ghost:hover, a.ghost:focus {
   50% {
     color: white;
   }
+}
+
+/****** MODAL ******/
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.popup-body {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
