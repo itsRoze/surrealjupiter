@@ -60,6 +60,10 @@ body {
 	transition: color 0.3s ease-in, background-color 0.3 ease-in
 }
 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
 /****** INFO ******/
 
 .info {
